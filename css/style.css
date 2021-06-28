@@ -1,0 +1,43 @@
+body{
+  width: 1500px;
+}
+.container_header {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+.left_header > a {
+  color: rgb(27, 27, 119);
+  padding: 0 10px;
+  font-weight:bold;
+  font-size:larger;
+}
+.left_header, .right_header {
+  display: flex;
+  align-items: center;
+}
+.right_header {
+  margin-left: auto; /*右寄せ*/
+}
+.right_header > div {
+  margin-left: auto;
+  padding: 0 10px;
+  color:rgb(27, 27, 119);
+  font-weight:bold;
+}
+.relative_img{
+  width: 50%;
+  position: relative;
+  top: 100px;
+  left: 50%;
+}
+.item{
+  width: 80%;
+  background:blue;
+  height: 200px;
+}
+.absolute{
+position: absolute;
+top: 62%;
+font-size:70px;
+}
