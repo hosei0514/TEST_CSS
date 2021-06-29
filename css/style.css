@@ -37,7 +37,7 @@ body{
   height: 200px;
 }
 .absolute{
-position: absolute;
+position: relative;
 top: 62%;
 font-size:70px;
 }
